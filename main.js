@@ -13,7 +13,7 @@ function calcZins() {
    let k= document.getElementById("k");
    let p= document.getElementById("p");
    let t = document.getElementById("t");
-
+// comment
 }
 
 //funktion aufrufen indem ich eine Variable deklariere
