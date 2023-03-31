@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <base href="http://www.example.com">
+    <title>Template</title>
+</head>
+<body>
+    <form action="/susi" method="post">
+        <div>
+            Vorname:
+            <input type="text" name="fistname" placeholder="yoyoyo" value="Marlies"/>
+        </div>
+        <!-- <label>Vorname</label> -->
+        
+        <label>Telefon</label>
+        <input disabled type="text" name="phone" value="654684">
+        <label>Password</label>
+        <input type="password" name="password">
+        <label>AGB gelesen</label>
+        <input checked type="checkbox" name="checkbox">
+        <label>foto upload</label>
+        <input type="file" name="foto">
+        <input type="color">
+        <select name="country" multiple>
+            <option value="AT">Austria</option>
+            <option value="DE">Germany</option>
+        </select>
+        <div>
+            <input type="radio" name="sex" value="F">Weiblich
+            <input type="radio" name="sex" value="M">Männlich
+            <input type="radio" name="sex" value="D">Divers
+        </div>
+
+        <button type="submit">Save</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
